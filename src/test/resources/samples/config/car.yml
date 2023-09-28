@@ -1,4 +1,4 @@
-make: "Ford"
-model: "i m unauthorized git user"
+make: "Mazda"
+model: "i m authorized git user with the token"
 year: 2023
-safety: 1
+safety: 5
