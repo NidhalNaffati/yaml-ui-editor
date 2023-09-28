@@ -1,4 +1,5 @@
 rules:
   allowedAccountTypes:
   - "current"
-  withdrawalThreshold: 1000
+  - "joint"
+  withdrawalThreshold: 2023
