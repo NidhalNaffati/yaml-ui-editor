@@ -21,8 +21,8 @@ git:
     # If _both_ username and password are provided, they will be used to authenticate to the remote
     # Git repository. Otherwise, the app uses the Git configuration on the host (e.g., stores and
     # helpers defined in `gitconfig`).
-    #username:
-    #password:
+    username: ${GIT_USERNAME}
+    password: ${GIT_PASSWORD}
   local:
     # path specifies the local filesystem path where the Git repository should be cloned. Defaults
     # to `config-repo`. This can be either an absolute or relative path.
@@ -31,7 +31,7 @@ git:
     # url is the remote Git repository URL. It is _required_ and there is _no default value_.
     # Replace the value below with the URL of the Git repository where your YAML
     # configuration files are stored.
-    url: https://github.com/google/yaml-ui-editor
+    url: https://github.com/NidhalNaffati/yaml-ui-editor
 
     # Name of the remote repository used when cloning, pulling and pushing, defaults to `origin`.
     #remote: origin
